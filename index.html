@@ -1,18 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title> Day 3 question 1</title>
-  </head>
-  <body>
-    <script>
-      let num= ("Enter a number ");
-      if(num % 2 == 0){
-        console.log("The entered number is  even");
-      }
-      else {
-        console.log("The entered number is odd");
-      }
-      
-    </script>
-  </body>
+<head>
+<meta charset=utf-8 />
+<title>JavaScript FizzBuzz program</title>
+</head>
+<body>
+  
+</body>
 </html>
+
+Copy
+JavaScript Code:
+
+for ( var i = 1; i <= 100; i++ )
+{
+  if ( i%3 === 0 && i%5 === 0 )
+  {
+    console.log( i + " FizzBuzz" );
+  }
+  else if ( i%3 === 0 ) 
+  {
+    console.log(i+ " Fizz" );
+  }
+  else if ( i%5 === 0 ) 
+  {
+    console.log(i+ " Buzz" );
+  }
+  else
+  {
+    console.log(i);
+  }
+}
